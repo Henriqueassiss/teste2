@@ -1,0 +1,67 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Variables */
+:root {
+  --grey: #8a92ad;
+  --purple: ##7200af;
+  --orange: #ff4e02;
+  --dark-purple: #1d1c2b;
+}
+
+/* Main Settings */
+body {
+  color: white;
+  background-color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FlexBox */
+.flex {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+/* Default Components */
+.max-content {
+  width: 1200px;
+  max-width: 1200px;
+}
+
+h1 {
+  font-size: 60px;
+  max-width: 928px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.default-p {
+  font-size: 18px;
+  color: var(--grey);
+}
+
+.button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 12px 35px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: var(--orange);
+}
