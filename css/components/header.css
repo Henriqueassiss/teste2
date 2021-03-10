@@ -1,6 +1,7 @@
 .header {
   width: 100%;
-  height: 8vh;
+  height: 9vh;
+  position: fixed;
   background-color: transparent;
 }
 
@@ -19,6 +20,11 @@
   margin-right: 22px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.header__link:hover {
+  color: var(--light-purple);
 }
 
 .header__cart {

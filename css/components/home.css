@@ -1,0 +1,33 @@
+#home {
+  padding-top: 15vh;
+}
+
+#home .default-p {
+  margin-bottom: 50px;
+}
+
+.home__svg {
+  filter: saturate(200%);
+  width: 100%;
+  margin-top: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../../assets/images/hero1.png');
+}
+
+.home__cellphone {
+  width: 307px;
+  height: 617px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../../assets/images/cellphone.png');
+}
+
+video {
+  width: 290px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 40px;
+}

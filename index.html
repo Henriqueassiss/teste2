@@ -1,83 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Teste 2</title>
+    <!-- <link rel="icon" href=""> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/home.css" />
+    <link rel="stylesheet" href="css/components/features.css" />
+    <link rel="stylesheet" href="css/components/about.css" />
+  </head>
 
-<head>
-  <title>Teste 2</title>
-  <!-- <link rel="icon" href=""> -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/components/header.css">
-</head>
+  <body>
+    <!-- Start Header -->
+    <header class="header flex jc-c ai-c">
+      <!-- Start Nav -->
+      <nav class="header__nav flex jc-sb ai-c max-content">
+        <img class="header__logo" src="assets/icons/logo.png" alt="Logo" />
 
-<body>
+        <div class="header__links flex jc-c ai-c">
+          <a class="header__link" href="#">home</a>
+          <a class="header__link" href="#">company</a>
+          <a class="header__link" href="#">templates</a>
+          <a class="header__link" href="#">pricing</a>
+          <a class="header__link" href="#">blog</a>
+          <a class="header__link" href="#">contact</a>
+          <a class="header__link" href="#">cart</a>
+          <img class="header__cart" src="assets/icons/cart.svg" alt="Cart" />
+        </div>
+      </nav>
+      <!-- End Nav -->
+    </header>
+    <!-- End Header -->
 
-  <!-- Start Header -->
-  <header class="header flex jc-c ai-c">
+    <!-- Start Main -->
+    <main class="main flex jc-c ai-c fd-c">
+      <!-- Start Home -->
+      <section id="home" class="flex jc-c ai-c fd-c max-content">
+        <h1>The most customizable webflow template</h1>
 
-    <!-- Start Nav -->
-    <nav class="header__nav flex jc-sb ai-c max-content">
+        <p class="default-p">
+          Get it before everybody else! Only available to subscribers.
+        </p>
 
-      <img class="header__logo" src="assets/icons/logo.png" alt="Logo">
+        <a href="#" class="button">talk to an expert</a>
 
-      <div class="header__links flex jc-c ai-c">
+        <div class="home__svg flex jc-c ai-c">
+          <div class="home__cellphone flex jc-c ai-c">
+            <video
+              src="assets/videos/hero-video.webm"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+        </div>
+      </section>
+      <!-- End Home -->
 
-        <a class="header__link" href="#">home</a>
-        <a class="header__link" href="#">company</a>
-        <a class="header__link" href="#">templates</a>
-        <a class="header__link" href="#">pricing</a>
-        <a class="header__link" href="#">blog</a>
-        <a class="header__link" href="#">contact</a>
-        <a class="header__link" href="#">cart</a>
-        <img class="header__cart" src="assets/icons/cart.svg" alt="Cart">
+      <!-- Start Features -->
+      <section id="features" class="flex jc-c ai-c fd-c max-content">
+        <h2>powerful features</h2>
 
-      </div>
+        <p class="default-p">Be the first to hear about it</p>
 
+        <div class="flex jc-sb ai-c fw-w max-content">
+          <article class="features__card flex jc-c ai-c fd-c">
+            <div class="features__icon icon1"></div>
+            <p class="lg-default-p">web interactive</p>
+          </article>
 
-    </nav>
-    <!-- End Nav -->
+          <article class="features__card flex jc-c ai-c fd-c">
+            <div class="features__icon icon2"></div>
+            <p class="lg-default-p">great design</p>
+          </article>
 
-  </header>
-  <!-- End Header -->
+          <article class="features__card flex jc-c ai-c fd-c">
+            <div class="features__icon icon3"></div>
+            <p class="lg-default-p">unique ideas</p>
+          </article>
+        </div>
+      </section>
+      <!-- End Features -->
 
-  <!-- Start Main -->
-  <main class="main">
+      <!-- Start About -->
+      <section id="about" class="flex jc-c ai-c fd-c max-content">
+        <article class="about__card flex jc-sb ai-c max-content">
+          <div class="about__text">
+            <h2>Nr.1 customizable webflow template</h2>
 
-    <!-- Start Home -->
-    <section id="home" class="flex jc-c ai-c fd-c">
+            <p class="default-p">We've got you covered</p>
 
-      <h1>The most customizable webflow template</h1>
+            <p class="long-p">
+              Don’t take too much advice. Most people who have a lot of advice
+              to give — with a few exceptions — generalize whatever they did.
+              Don’t over-analyze everything. I myself have been guilty of
+              over-thinking problems. Just build things and find out if they
+              work.
+            </p>
 
-      <p class="default-p">
-        Get it before everybody else! Only available to subscribers.
-      </p>
+            <div class="about__icons flex jc-sb ai-c">
+              <img
+                class="about__icon icon4"
+                src="assets/images/feature7.png"
+                alt="Feature 7"
+              />
 
-      <a href="#" class="button">talk to an expert</a>
+              <div class="about__divider"></div>
 
-      <div class="home__hero">
+              <img
+                class="about__icon icon5"
+                src="assets/images/feature8.png"
+                alt="Feature 8"
+              />
 
-        <div class="home__svg">
+              <div class="about__divider"></div>
 
-          <div class="home__cellphone">
-
-
-
+              <img
+                class="about__icon icon6"
+                src="assets/images/feature9.png"
+                alt="Feature 9"
+              />
+            </div>
           </div>
 
-        </div>
+          <img
+            class="about__img"
+            src="assets/images/feature.jpg"
+            alt="Feature Image"
+          />
+        </article>
 
-      </div>
+        <article class="about__card flex jc-sb ai-c max-content">
+          <img
+            class="about__img"
+            src="assets/images/feature.jpg"
+            alt="Feature Image"
+          />
 
-    </section>
-    <!-- End Home -->
+          <div class="about__text">
+            <h2>hight quality standarts</h2>
 
-  </main>
-  <!-- End Main -->
+            <p class="default-p">Cool &amp; Amazing Design</p>
 
-  <script src="js/script.js"></script>
+            <p class="long-p">
+              The stars will never align, and the traffic lights of life will
+              never all be green at the same time. The universe doesn’t conspire
+              against you, but it doesn’t go out of its way to line up the pins
+              either. Conditions are never perfect.
+            </p>
 
-</body>
+            <div class="flex jc-sb ai-c fd-c">
+              <header class="flex jc-sb ai-c">
+                <p class="sm-default-p">Galery Image</p>
 
+                <div class="about__buttons flex jc-sb ai-c">
+                  <a href="javascript:void(0);" onclick="showMore()">
+                    <img
+                      class="left-arrow"
+                      src="assets/icons/right-arrow.svg"
+                      alt="Left Arrow"
+                    />
+                  </a>
+
+                  <a href="javascript:void(0);" onclick="showMore()">
+                    <img
+                      class="right-arrow"
+                      src="assets/icons/right-arrow.svg"
+                      alt="Right Arrow"
+                    />
+                  </a>
+                </div>
+              </header>
+
+              <div class="about__carousel flex jc-sb ai-c">
+                <div class="about__item">
+                  <img
+                    class="about__feature"
+                    src="assets/images/feature1.jpg"
+                    alt="Feature 1"
+                  />
+                  <p class="sm-default-p">Feature One</p>
+                </div>
+
+                <div class="about__item">
+                  <img
+                    class="about__feature"
+                    src="assets/images/feature2.jpg"
+                    alt="Feature 2"
+                  />
+                  <p class="sm-default-p">Feature Two</p>
+                </div>
+
+                <div class="about__item">
+                  <img
+                    class="about__feature"
+                    src="assets/images/feature3.jpg"
+                    alt="Feature 3"
+                  />
+                  <p class="sm-default-p">Feature Three</p>
+                </div>
+
+                <div class="about__item">
+                  <img
+                    class="about__feature"
+                    src="assets/images/feature4.jpg"
+                    alt="Feature 4"
+                  />
+                  <p class="sm-default-p">Feature Four</p>
+                </div>
+
+                <div class="about__item">
+                  <img
+                    class="about__feature"
+                    src="assets/images/feature5.jpg"
+                    alt="Feature 5"
+                  />
+                  <p class="sm-default-p">Feature Five</p>
+                </div>
+
+                <div class="about__item">
+                  <img
+                    class="about__feature"
+                    src="assets/images/feature6.jpg"
+                    alt="Feature 6"
+                  />
+                  <p class="sm-default-p">Feature Six</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- End About -->
+    </main>
+    <!-- End Main -->
+
+    <div class="glow"></div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,35 @@
+#features .default-p {
+  margin-bottom: 70px;
+}
+
+.features__card {
+  width: 380px;
+  height: 230px;
+  border-radius: 6px;
+  background-color: var(--dark-purple);
+}
+
+.features__icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-size: 42px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon1 {
+  background-color: #2BA7B4;
+  background-image: url('../../assets/icons/icon1.png');
+}
+
+.icon2 {
+  background-color: #a702ff;
+  background-image: url('../../assets/icons/icon2.png');
+}
+
+.icon3 {
+  background-color: var(--orange);
+  background-image: url('../../assets/icons/icon3.png');
+}

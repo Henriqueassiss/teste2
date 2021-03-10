@@ -1,0 +1,101 @@
+.about__card:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.about__text:first-child {
+  margin-right: 5%;
+}
+
+.about__text:last-child {
+  margin-left: 5%;
+}
+
+#about h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#about .default-p {
+  margin-bottom: 20px;
+}
+
+#about .long-p {
+  margin-bottom: 70px;
+}
+
+.about__img {
+  width: 592px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about__icons {
+  height: 128px;
+  padding: 0 54px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.about__icon {
+  width: 48px;
+  position: relative;
+}
+
+.icon4 {
+  filter: hue-rotate(103deg);
+}
+
+.icon6 {
+  filter: hue-rotate(285deg);
+}
+
+.about__divider {
+  width: 1px;
+  height: 68px;
+  background-color: var(--light-grey);
+}
+
+#about header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about__buttons {
+  width: 8%;
+}
+
+.left-arrow {
+  height: 15px;
+  transform: scaleX(-1);
+ }
+
+.right-arrow {
+ height: 15px;
+}
+
+.about__carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about__item {
+  margin: 0 2%;
+  min-width: 32%;
+  transform: translateX(0);
+}
+
+.about__item.show-more {
+  transform: translateX(-595px);
+}
+
+.about__feature {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;  
+  border-radius: 10px;
+}
+
+.about__carousel .sm-default-p {
+  margin-top: 20px;
+}
