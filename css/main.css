@@ -8,8 +8,9 @@
   --purple: #7200af;
   --orange: #ff4e02;
   --light-grey: #c9cddb;
-  --light-purple: #cb93e9;
   --dark-purple: #1d1c2b;
+  --light-purple: #cb93e9;
+  --medium-purple: #a702ff;
 }
 
 /* Main Settings */
@@ -36,12 +37,20 @@ section {
   justify-content: center;
 }
 
+.jc-e {
+  justify-content: space-evenly;
+}
+
 .ai-c {
   align-items: center;
 }
 
 .fd-c {
   flex-direction: column;
+}
+
+.fw-w {
+  flex-wrap: wrap;
 }
 
 /* Default Components */
@@ -60,6 +69,17 @@ h2 {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 h1,
@@ -107,10 +127,6 @@ h2 {
 
 .button:hover {
   background-color: var(--purple);
-}
-
-.fw-w {
-  flex-wrap: wrap;
 }
 
 .glow  {

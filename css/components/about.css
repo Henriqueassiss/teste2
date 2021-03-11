@@ -83,9 +83,10 @@
   margin: 0 2%;
   min-width: 32%;
   transform: translateX(0);
+  transition: all 500ms ease-in-out;
 }
 
-.about__item.show-more {
+.about__carousel.active .about__item{
   transform: translateX(-595px);
 }
 

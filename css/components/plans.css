@@ -1,0 +1,46 @@
+#plans .default-p {
+  margin-bottom: 80px;
+}
+
+.plans__card {
+  width: 373px;
+  height: 783px;
+  position: relative;
+  border-radius: 6px;
+  padding: 140px 40px 40px;
+  background-color: var(--dark-purple);
+}
+
+.plans__image {
+  top: 0;
+  left: auto;
+  width: 80%;
+  right: auto;
+  max-height: 120px;
+  position: absolute;
+  object-fit: contain;
+}
+
+.plans__name {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--medium-purple);
+}
+
+#plans .long-p {
+  text-align: center;
+}
+
+.plans__benefits {
+  width: 293px;
+  height: 299px;
+  border-radius: 6px;
+  background-color: #0b0b11;
+}
+
+.plans__divider {
+  width: 253px;
+  height: 1px;
+  background-color: #303035;
+}

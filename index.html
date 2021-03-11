@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/components/home.css" />
     <link rel="stylesheet" href="css/components/features.css" />
     <link rel="stylesheet" href="css/components/about.css" />
+    <link rel="stylesheet" href="css/components/plans.css" />
+    <link rel="stylesheet" href="css/components/questions.css">
   </head>
 
   <body>
@@ -158,7 +160,7 @@
                 <p class="sm-default-p">Galery Image</p>
 
                 <div class="about__buttons flex jc-sb ai-c">
-                  <a href="javascript:void(0);" onclick="showMore()">
+                  <a href="javascript:void(0);" onclick="slide()">
                     <img
                       class="left-arrow"
                       src="assets/icons/right-arrow.svg"
@@ -166,7 +168,7 @@
                     />
                   </a>
 
-                  <a href="javascript:void(0);" onclick="showMore()">
+                  <a href="javascript:void(0);" onclick="slide()">
                     <img
                       class="right-arrow"
                       src="assets/icons/right-arrow.svg"
@@ -236,6 +238,162 @@
         </article>
       </section>
       <!-- End About -->
+
+      <!-- Start Plans -->
+      <section id="plans" class="flex jc-c ai-c fd-c max-content">
+        <h2>choose your plan</h2>
+        <p class="default-p">Pricing Tables</p>
+
+        <div class="flex jc-sb ai-c max-content">
+          <article class="plans__card flex jc-sb ai-c fd-c">
+            <img class="plans__image" src="assets/images/plans1.png" alt="Plans 1" />
+
+            <h3>$ 25.000 USD</h3>
+
+            <p class="plans__name">basic</p>
+
+            <p class="long-p">
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor
+            </p>
+
+            <ul class="plans__benefits flex jc-e ai-c fd-c">
+              <li class="long-p plans__benefit">1 projects</li class="plans__benefit">
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">Unlimited hosted projects</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">Code export</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">1 developer tools</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">24/7 chat support</li>
+            </ul>
+
+            <a href="#" class="button">add to cart</a>
+          </article>
+
+          <article class="plans__card flex jc-sb ai-c fd-c">
+            <img class="plans__image" src="assets/images/plans2.png" alt="Plans 2" />
+
+            <h3>$ 50.000 USD</h3>
+
+            <p class="plans__name">professional</p>
+
+            <p class="long-p">
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor
+            </p>
+
+            <ul class="plans__benefits flex jc-e ai-c fd-c">
+              <li class="long-p plans__benefit">5 projects</li class="plans__benefit">
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">Unlimited hosted projects</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">Code export</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">3 developer tools</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">24/7 chat support</li>
+            </ul>
+
+            <a href="#" class="button">add to cart</a>
+          </article>
+
+          <article class="plans__card flex jc-sb ai-c fd-c">
+            <img class="plans__image" src="assets/images/plans3.png" alt="Plans 3" />
+
+            <h3>$ 85.000 USD</h3>
+
+            <p class="plans__name">enterprise</p>
+
+            <p class="long-p">
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor
+            </p>
+
+            <ul class="plans__benefits flex jc-e ai-c fd-c">
+              <li class="long-p plans__benefit">10 projects</li class="plans__benefit">
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">Unlimited hosted projects</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">Code export</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">5 developer tools</li>
+              <li class="plans__divider"></li>
+              <li class="long-p plans__benefit">24/7 chat support</li>
+            </ul>
+
+            <a href="#" class="button">add to cart</a>
+          </article>
+        </div>
+      </section>
+      <!-- End Plans -->
+
+      <!-- Start Questions -->
+      <section id="questions" class="flex jc-sb ai-c max-content">
+        <div class="questions__text">
+          <h2>frequently asked questions</h2>
+
+          <p class="default-p">
+            Question &amp; Answer Corner
+          </p>
+        </div>
+
+        <div class="">
+          
+          <div class="questions__block">
+            <a class="questions__button flex jc-sb ai-c" href="javascript:void(0);" onclick="showAnswer()">
+              <h4>What is your return policy?</h4>
+  
+              <div class="questions__icon flex jc-c ai-c">
+                <span class="questions__minus"></span>
+                <span class="questions__plus"></span>
+              </div>
+            </a>
+
+            <div class="questions__answer">
+              <p class="long-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+              </p>
+            </div>
+          </div>
+
+          <div class="questions__block">
+            <a class="questions__button flex jc-sb ai-c" href="javascript:void(0);" onclick="showAnswer()">
+              <h4>How much traffic can the hosting handle?</h4>
+  
+              <div class="questions__icon flex jc-c ai-c">
+                <span class="questions__minus"></span>
+                <span class="questions__plus"></span>
+              </div>
+            </a>
+
+            <div class="questions__answer">
+              <p class="long-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+              </p>
+            </div>
+          </div>
+
+          <div class="questions__block">
+            <a class="questions__button flex jc-sb ai-c" href="javascript:void(0);" onclick="showAnswer()">
+              <h4>Do you have any questions for us?</h4>
+  
+              <div class="questions__icon flex jc-c ai-c">
+                <span class="questions__minus"></span>
+                <span class="questions__plus"></span>
+              </div>
+            </a>
+
+            <div class="questions__answer">
+              <p class="long-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Questions -->
     </main>
     <!-- End Main -->
 
