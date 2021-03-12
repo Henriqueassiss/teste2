@@ -11,12 +11,13 @@
   --dark-purple: #1d1c2b;
   --light-purple: #cb93e9;
   --medium-purple: #a702ff;
+  --black: #12001a;
 }
 
 /* Main Settings */
 body {
   color: white;
-  background-color: #12001a;
+  background-color: var(--black);
   font-family: 'Poppins', sans-serif;
 }
 

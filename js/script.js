@@ -20,3 +20,15 @@ toggleAnswer.forEach((button) => {
     }
   });
 });
+
+const changeHeader = () => {
+  const header = document.querySelector('.header');
+  let y = window.scrollY;
+  if (y >= 20) {
+    header.classList.add('active');
+  } else {
+    header.classList.remove('active');
+  }
+};
+
+window.onscroll = changeHeader;
