@@ -7,17 +7,16 @@ const slide = () => {
   }
 };
 
-const showAnswer = () => {
-  const button = document.querySelector('.questions__button');
-  const answer = document.querySelector('.questions__answer');
-  if (
-    button.classList.contains('active') &&
-    answer.classList.contains('active')
-  ) {
-    button.classList.remove('active');
-    answer.classList.remove('active');
-  } else {
-    button.classList.add('active');
-    answer.classList.add('active');
-  }
-};
+const toggleAnswer = document.querySelectorAll('.questions__button');
+toggleAnswer.forEach((button) => {
+  button.addEventListener('click', () => {
+    const ans = button.nextElementSibling;
+    if (button.classList.contains('active')) {
+      button.classList.remove('active');
+      ans.classList.remove('active');
+    } else {
+      button.classList.add('active');
+      ans.classList.add('active');
+    }
+  });
+});

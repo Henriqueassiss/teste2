@@ -1,18 +1,23 @@
 #questions h2 {
   text-align: left;
+  margin-top: 60px;
 }
 
 .questions__block {
   width: 560px;
   margin-bottom: 16px;
   border-radius: 10px;
-  transition: all 300ms ease-in-out;
+  transition: all 500ms ease-in-out;
   background-color: var(--dark-purple);
 }
 
 .questions__block:hover {
   background-color: #12001a;
   transform: translateY(-5px);
+}
+
+.questions__block:hover .questions__answer{
+  background-color: #12001a;
 }
 
 .questions__button {
@@ -51,18 +56,17 @@
 }
 
 .questions__answer {
-  display: none;
-  padding: 20px;
+  opacity: 0;
+  padding: 0px;
+  max-height: 0;
+  overflow-y: hidden;
   border-radius: 0 0 10px 10px;
+  transition: all 500ms ease-in-out;
   background-color: var(--dark-purple);
-  transition: background-color 300ms ease-in-out;
-}
-
-.questions__block:hover .questions__answer{
-  background-color: #12001a;
 }
 
 .questions__answer.active {
-  display: block;
+  opacity: 1;
+  padding: 20px;
+  max-height: 1000px;
 }
-

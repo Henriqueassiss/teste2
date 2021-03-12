@@ -41,8 +41,16 @@ section {
   justify-content: space-evenly;
 }
 
+.jc-fs {
+  justify-content: flex-start;
+}
+
 .ai-c {
   align-items: center;
+}
+
+.ai-fs {
+  align-items: flex-start;
 }
 
 .fd-c {
@@ -82,12 +90,19 @@ h4 {
   font-weight: 600;
 }
 
+h5 {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 h1,
 h2 {
   max-width: 928px;
   text-align: center;
   text-transform: capitalize;
-
 }
 
 .default-p {

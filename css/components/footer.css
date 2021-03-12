@@ -1,0 +1,40 @@
+.footer {
+  padding: 12vh 0 0;
+  background-color: var(--dark-purple);
+}
+
+.footer__img {
+  width: 160px;
+  margin-bottom: 60px;
+}
+
+.footer__info {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+address {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+.footer__divider {
+  width: 1px;
+  height: 104px;
+  background-color: #383744;
+}
+
+.footer .long-p{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer__created {
+  width: 100%;
+  padding: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--light-grey);
+  background-color: #0f0e16;
+}
